@@ -5,6 +5,9 @@ display_ascii_art() {
     figlet -f standard "MultiScan"
     echo
     echo "Author: iimadouu"
+    echo "ETH: 0x68699b4F7965A2347C2d61139856a2B7A40Bc41c"
+    echo
+    echo
 }
 
 
@@ -96,6 +99,8 @@ scan_website() {
 
     echo
     echo "Scan completed. The consolidated HTML report is saved in: $report_file"
+    echo
+    echo "Please don't forget to help us improve, ETH : 0x68699b4F7965A2347C2d61139856a2B7A40Bc41c"
 }
 
 # Call the function to scan a website
