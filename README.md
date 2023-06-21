@@ -43,7 +43,8 @@ Then
 ## Disclaimer
 
   IMPORTANT: I don't care how you use the app because I am not responsible for any misuse or
-  illegal activities conducted with this tool. Use it responsibly and at your own risk.
+  illegal activities conducted with this tool. Use it responsibly and at your own risk and
+  most importantly DON'T GET CAUGHT.
 
 
 ## Disclaimer
