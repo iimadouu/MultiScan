@@ -9,10 +9,10 @@ MultiScan is a website scanning tool that utilizes various security assessment t
    ```
    git clone https://github.com/iimadouu/MultiScan.git
    ```
- Then
- 
-   ```cd MultiScan```
-
+Then
+   ```
+   cd MultiScan
+   ```
   
 2. Make the necessary files executable:
    ```
@@ -37,7 +37,7 @@ MultiScan is a website scanning tool that utilizes various security assessment t
 
 ## Updaate
 
-  Whenever you want to check for updates just execute ```sh update.sh``
+  Whenever you want to check for updates just execute ```sh update.sh```
 
 
 ## Disclaimer
