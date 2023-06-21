@@ -1,10 +1,21 @@
 #!/bin/bash
 
-# Function to scan a website using various tools
+# Function to display ASCII art
+display_ascii_art() {
+    figlet -f standard "MultiScan"
+    echo
+    echo "Author: iimadouu"
+}
+
+
+# start scanning websites
 scan_website() {
+    display_ascii_art
+
+    
     read -p "Enter the website domain (without HTTP/HTTPS): " website
 
-    # Check if the website is HTTP or HTTPS
+    # Protocol HTTP or HTTPS
     echo "Choose the website protocol:"
     echo "1. HTTP"
     echo "2. HTTPS"
