@@ -45,7 +45,7 @@ scan_website() {
 
     # Run SQLMap and append report to HTML
     echo "Running SQLMap..."
-    sqlmap -u "$protocol$website" --crawl 5 --random-agent --level=3 --risk=1 --time-sec=40 --threads=6  --tamper=varnish.py,space2comment.py,between.py,randomcase --no-cast --timeout=170 --skip=Host,User-Agent --current-user --is-dba --privileges  --users --passwords --dbs --batch | tee -a "$report_file"
+    sqlmap -u "$protocol$website" --crawl 5 --random-agent --level=3 --risk=1 --time-sec=40 --threads=6  --tamper=varnish.py,space2comment.py,between.py,randomcase --no-cast --timeout=170 --skip=Host,User-Agent --current-user --is-dba --privileges  --dbs --batch | tee -a "$report_file"
 
     # Run Commix and append report to HTML
     echo "Running Commix..."
