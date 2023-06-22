@@ -24,7 +24,11 @@ sudo apt-get install wpscan
 
 sudo apt-get install sslyze
 
-sudo apt-get install skipfish
+git clone https://github.com/spinkham/skipfish.git
+cd skipfish
+make
+sudo make install
+cd ..
 
 sudo apt-get install wapiti
 
