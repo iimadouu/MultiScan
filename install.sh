@@ -8,9 +8,9 @@ sudo apt-get install nmap
 
 sudo apt-get install sqlmap
 
-sudo apt-get install commix
+git clone https://github.com/commixproject/commix.git
 
-sudo apt-get install xsser
+git clone https://github.com/s0md3v/XSStrike.git 
 
 sudo apt-get install nikto
 
