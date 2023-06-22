@@ -35,7 +35,7 @@ Then
    * Select the protocol (http or https) for the target website.
 
 
-## Updaate
+## Update
 
   Whenever you want to check for updates just execute ```sh update.sh```
 
@@ -54,3 +54,5 @@ If you find this tool useful and would like to support its development, you can 
 ETH Wallet Address: 0x68699b4F7965A2347C2d61139856a2B7A40Bc41c
 
 Your support is greatly appreciated!
+
+## Algeria 🇩🇿🇩🇿
