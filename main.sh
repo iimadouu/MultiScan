@@ -81,10 +81,10 @@ scan_website() {
 
     # Run Wapiti and append report to HTML
     echo "Running Wapiti..."
-    wapiti -u "$protocol$website" -o reports/wapiti-report | tee -a "$report_file"
+    wapiti -u "$protocol$website"  | tee -a "$report_file"
 
     echo "Running SubFinder..."
-    subfinder -d "$website" -o reports/subfinder-report | tee -a "$report_file"
+    subfinder -d "$website"  | tee -a "$report_file"
 
     # Run XSSer and append report to HTML
     echo "Running XSSer..."
