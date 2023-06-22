@@ -53,7 +53,7 @@ scan_website() {
 
     # Run Nikto and append report to HTML
     echo "Running Nikto..."
-    nikto -h "$protocol$website" | tee -a "$report_file"
+    nikto -h "$protocol$website" -C all -Tuning x -Plugins @@DEFAULT | tee -a "$report_file"
 
     # Run Dirb and append report to HTML
     echo "Running Dirb..."
