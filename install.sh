@@ -28,7 +28,7 @@ sudo apt-get install skipfish
 
 sudo apt-get install wapiti
 
-sudo apt-get install subfinder
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
 sudo apt-get install whatweb
 
@@ -43,6 +43,8 @@ sudo apt-get install ruby
 sudo apt-get install clang
 
 sudo apt-get install figlet
+
+sudo apt-get install golang
 
 sudo apt-get update
 
