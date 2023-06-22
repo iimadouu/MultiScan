@@ -49,7 +49,7 @@ scan_website() {
 
     # Run Commix and append report to HTML
     echo "Running Commix..."
-    commix -u "$protocol$website" --all --batch | tee -a "$report_file"
+    python3 commix/commix.py -u "$protocol$website" --crawl 3 --all --batch | tee -a "$report_file"
 
     # Run Nikto and append report to HTML
     echo "Running Nikto..."
@@ -87,8 +87,8 @@ scan_website() {
     subfinder -d "$website"  | tee -a "$report_file"
 
     # Run XSSer and append report to HTML
-    echo "Running XSSer..."
-    xsser -u "$protocol$website" -c 100 --Cw 4 | tee -a "$report_file"
+    echo "Running XSStrike..."
+    python3 XSStrike/xsstrike.py -u "$protocol$website" --crawl -l 3 -t 10 -e base64 | tee -a "$report_file"
 
     # Run Nmap and append report to HTML
     echo "Running Nmap..."
