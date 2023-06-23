@@ -1,6 +1,6 @@
-# MultiScan
+# VulnerabilityScanning 
 
-MultiScan is a website scanning tool that utilizes various security assessment tools to scan and analyze websites for vulnerabilities.
+VulnerabilityScanning is a website scanning tool that utilizes various security assessment tools to scan and analyze websites for vulnerabilities.
 
 ## Installation
 
