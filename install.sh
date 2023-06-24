@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Install required packages
+# Install these packages is mandatory 
 
 sudo apt-get update
 
