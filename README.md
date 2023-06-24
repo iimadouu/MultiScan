@@ -47,7 +47,7 @@ Then
   most importantly DON'T GET CAUGHT.
 
 
-## Disclaimer
+## Donations
 
 If you find this tool useful and would like to support its development, you can make a donation using Ethereum (ETH):
 
